@@ -26,6 +26,7 @@ export const StyledSidebar = styled.div`
   display: flex;
   flex-direction: row;
   color: #fff;
+  display: none;
 `
 
 export const StyledDrawer = styled.div`
