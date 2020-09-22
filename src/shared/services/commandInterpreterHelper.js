@@ -729,7 +729,7 @@ const availableCommands = [
 
       function updateAndShowGrass(newGrass) {
         put(updateGraphStyleData(newGrass))
-        showGrass()
+        //showGrass()
       }
 
       function putGrassErrorFrame(message) {
