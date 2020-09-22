@@ -84,8 +84,8 @@ export const codeFontLigatures = state => state[NAME].codeFontLigatures
 const initialState = {
   cmdchar: ':',
   maxHistory: 30,
-  theme: AUTO_THEME,
-  initCmd: ':play start',
+  theme: DARK_THEME,
+  initCmd: null,
   playImplicitInitCommands: true,
   initialNodeDisplay: 300,
   maxNeighbours: 100,
