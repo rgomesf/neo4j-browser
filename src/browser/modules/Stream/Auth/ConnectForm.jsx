@@ -151,7 +151,7 @@ export default function ConnectForm(props) {
                     ref: ref => setRefForIndex(1, ref)
                   })}
                 >
-                  {[NATIVE, NO_AUTH].map((auth, i) => (
+                  {[NO_AUTH, NATIVE].map((auth, i) => (
                     <option value={auth} key={i}>
                       {readableauthenticationMethods[auth]}
                     </option>
