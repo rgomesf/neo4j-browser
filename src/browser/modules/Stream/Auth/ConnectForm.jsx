@@ -36,8 +36,8 @@ import { toKeyString } from 'services/utils'
 import { stripScheme, getScheme } from 'services/boltscheme.utils'
 
 const readableauthenticationMethods = {
-  [NATIVE]: 'Username / Password',
-  [NO_AUTH]: 'No authentication'
+  [NO_AUTH]: 'No authentication',
+  [NATIVE]: 'Username / Password'
 }
 
 export default function ConnectForm(props) {
